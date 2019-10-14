@@ -1,0 +1,254 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.top-header {
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: #445161;
+    color: #fff;
+    font-family: Arial;
+}
+
+.top-header:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.top-header-textblock {
+    width: 460px;
+    float: left;
+}
+
+.top-header-textblock-title {
+    margin: 0 0 10px 0;
+    font-size: 60px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.top-header-textblock-list {
+    padding: 0 0 0 20px;
+    margin: 0 0 0 0;
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 400;
+}
+
+.top-header-textblock-list-item {
+    list-style-type: none;
+    position: relative;
+}
+
+.top-header-textblock-list-item:before {
+    content: "";
+    display: block;
+    width: 25px;
+    height: 19px;
+    background-image: url('../img/check_icon.png');
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    top: 8px;
+    left: -35px;
+}
+
+.top-header-img {
+    display: block;
+    width: 469px;
+    min-height: 214px;
+    float: right;
+    background-color: #fff;
+}
+
+.content {
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+.content-desc {
+    width: 100%;
+    margin: 0 0 50px 0;
+}
+
+.content-desc:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.content-desc-textblock {
+    width: 653px;
+    float: left;
+}
+
+.content-desc-textblock-title {
+    margin: 0 0 30px 0;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #445161;
+}
+
+.content-desc-textblock-text {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.content-desc-video {
+    width: 430px;
+    height: 245px;
+    float: right;
+    background-color: #445161;
+}
+
+.content-details {
+    width: 100%;
+    background-color: #f5f5f5;
+    margin: 0 -50px 0 -50px;
+    padding: 50px;
+}
+
+.content-details:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.content-details-title {
+    margin: 0 0 0 0;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    text-align: center;
+    color: #445161;
+}
+
+.content-details-item {
+    display: block;
+    float: left;
+    width: 527px;
+    margin: 30px 23px 0px 40px;
+    position: relative;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.content-details-item::-webkit-details-marker {
+    display:none;
+}
+
+.content-details-item:before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 6px solid #445161;
+    background-color: #445161;
+    background-image: url('../img/plus_icon.png');
+    -webkit-background-size: cover; 
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    left: -40px;
+}
+
+.content-screenshots {
+    width: 100%;
+    margin: 0 0 0 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.content-screenshots:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.content-screenshots-title {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #445161;
+    text-align: center;
+}
+
+.content-screenshots-block {
+    width: 590px;
+    float: left;
+    margin: 0 0 30px 0;
+}
+
+.content-screenshots-block-img {
+    width: 200px;
+    height: 150px;
+    background-color: #445161;
+    float: left;
+    margin: 0 0 15px 0;
+}
+
+.content-screenshots-block-text {
+    float: right;
+    width: 390px;
+    padding: 0 15px 0 15px;
+    box-sizing: border-box;
+}
+
+.content-screenshots-block-text-title {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #445161;
+    margin: 0 0 15px 0;
+}
+
+.content-screenshots-block-text-detail {
+    margin: 0;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.content-reviews {
+    width: 100%;
+    background-color: #f5f5f5;
+    margin: 0 -50px 0 -50px;
+    padding: 50px;
+}
+
+.content-reviews:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.content-reviews-title {
+    margin: 0 0 0 0;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    text-align: center;
+    color: #445161;
+}
