@@ -5,7 +5,7 @@ body {
 .container {
     width: 1280px;
     margin: 0 auto;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
 }
 
 .top-header {
@@ -73,14 +73,15 @@ body {
 
 .content {
     width: 100%;
-    padding: 50px;
     box-sizing: border-box;
     font-family: Arial;
 }
 
 .content-desc {
-    width: 100%;
-    margin: 0 0 50px 0;
+    width: 100%
+    box-sizing: border-box;
+    margin: 0 0 0 0;
+    padding: 50px;
 }
 
 .content-desc:after {
@@ -119,8 +120,9 @@ body {
 
 .content-details {
     width: 100%;
+    box-sizing: border-box;
     background-color: #f5f5f5;
-    margin: 0 -50px 0 -50px;
+    margin: 0 0 0 0;
     padding: 50px;
 }
 
@@ -173,8 +175,9 @@ body {
 
 .content-screenshots {
     width: 100%;
+    box-sizing: border-box;
     margin: 0 0 0 0;
-    padding: 0;
+    padding: 50px;
     background-color: #ffffff;
 }
 
@@ -232,23 +235,173 @@ body {
 
 .content-reviews {
     width: 100%;
+    box-sizing: border-box;
     background-color: #f5f5f5;
-    margin: 0 -50px 0 -50px;
+    margin: 0 0 0 0;
     padding: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.content-reviews:after {
+/*.content-reviews:after {
     content: "";
     display: block;
     width: 100%;
     clear: both;
-}
+}*/
 
 .content-reviews-title {
-    margin: 0 0 0 0;
+    width: 100%;
+    margin: 0 0 30px 0;
     font-size: 30px;
     line-height: 36px;
     font-weight: 400;
     text-align: center;
     color: #445161;
+}
+
+.content-reviews-avatar-link {
+    width: 75px;
+    height: 75px;
+    margin: 0 0 0 0;
+    background-color: #445161;
+    border-radius: 50%;
+}
+
+.content-reviews-avatar-img {
+    width: 75px;
+    height: 75px;
+    background-color: #445161;
+    border-radius: 50%;    
+}
+
+.content-reviews-block {
+    width: 470px;
+    box-sizing: border-box;
+    margin: 0 0 25px 10px;
+    padding: 15px;
+    background-color: #ebebeb;
+    border-radius: 5px;
+    position: relative;
+}
+
+.content-reviews-block:before {
+    content: "";
+    display: block;
+    border: 15px solid transparent;
+    border-right: 15px solid #ebebeb;
+    position: absolute;
+    top: 30px;
+    left: -30px;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+.no-bottom-margin {
+    margin-bottom: 0;
+}
+
+.content-reviews-block-text {
+    margin: 0 0 15px 0;
+    font-style: italic;
+    color: #333333;
+}
+
+.content-reviews-block-author {
+    margin: 0 0 0 0;
+    color: #989898;
+}
+
+.content-prices {
+    width: 100%;
+    margin: 0 0 0 0;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.content-prices-title {
+    margin: 0 0 30px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.content-prices-block {
+    width: 300px;
+    box-sizing: border-box;
+    margin: 0 22px 0 22px;
+    background-color: #445161;
+    border-radius: 5px;
+}
+
+.content-prices-block-title {
+    margin: 0 0 0 0;
+    padding: 15px;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+}
+
+.content-prices-block-price {
+    display: block;
+    margin: 0 0 0 0;
+    padding: 16px 0;
+    font-size: 40px;
+    line-height: 30px;
+    font-weight: 400;
+    text-align: center;
+    color: #445162;
+    background-color: #ffffff;
+    border: 1px solid #445161;
+}
+
+.content-prices-block-list {
+    margin: 0 0 0 0;
+    padding: 20px;
+    list-style-position: inside;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.content-prices-block-btn {
+    margin: 0 auto 20px auto;
+    padding: 11px 0;
+    display: block;
+    width: 260px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 700;
+    color: #445161;
+}
+
+.content-contacts {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 0 0 0;
+    padding: 50px;
+    background-color: #445161;
+    color: #ffffff;
+}
+
+.content-contacts-title {
+    width: 100%;
+    text-align: center;
+    margin: 0 0 30px 0;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
 }
