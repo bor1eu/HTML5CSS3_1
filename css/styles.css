@@ -1,3 +1,15 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('../fonts/fontello.eot?60454588');
+  src: url('../fonts/fontello.eot?60454588#iefix') format('embedded-opentype'),
+       url('../fonts/fontello.woff2?60454588') format('woff2'),
+       url('../fonts/fontello.woff?60454588') format('woff'),
+       url('../fonts/fontello.ttf?60454588') format('truetype'),
+       url('../fonts/fontello.svg?60454588#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+} 
+
 body {
     margin: 0;
 }
@@ -568,11 +580,21 @@ body {
 }
 
 .email-icon:before {
-    background-image: url('../img/email_icon.png');
+    content: '\e801';
+    font-family: fontello;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+/*    background-image: url('../img/email_icon.png');*/
 }
 
 .phone-icon:before {
-    background-image: url('../img/phone_icon.png');
+    content: '\e802';
+    font-family: fontello;
+    font-style: normal;
+    font-weight: normal; 
+    font-size: 26px;
+/*    background-image: url('../img/phone_icon.png');*/
 }
 
 .content-contacts-data-socbtns {
